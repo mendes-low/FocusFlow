@@ -5,10 +5,26 @@
     transition: all 0.2s ease;
 }
 
-.btn_focus {
+.button_focus {
     color: rgb(255, 3, 3);
     background: #fff;
     border-radius: 10px;
     border: none;
+
+    &:hover {
+        color: black;
+        background-color: blue;
+    }
 }
 
+.button_notification {
+    color: green;
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+
+    &:hover {
+        color: white;
+        border-radius: 20px;
+    }
+}
