@@ -1,6 +1,10 @@
+import Chat from "@/features/chat/ui/Chat";
+
 function Home() {
     return (
-        <div>Home</div>
+        <>
+        <Chat />
+        </>
     )
 }
 
